@@ -33,17 +33,6 @@ function clearCalculation() {
     .innerHTML = '';
 }
 
-//toggle mode
- // const colorToggle = document.getElementById('#colorToggle');
- /// const modeText = document.getElementById('#modeText');
-
-
- // colorToggle.addEventListener('change', () => {
-
-  //  document.body.style.backgroundColor  = colorToggle.checked ? 'black' : 'white';
-
- //   modeText.textContent = colorToggle.checked ? 'Dark Mode' : 'Light Mode';
- // });
   const container = document.getElementById("container");
   const inputCalculation = document.getElementById("inputcalculation");
   const modeText = document.getElementById("modeText");

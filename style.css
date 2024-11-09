@@ -41,6 +41,7 @@ body {
       width: 60px;
       height: 60px;
       border-radius: 40px;
+      text-align: center;
       cursor: pointer;
 }
 
@@ -66,10 +67,11 @@ body {
       text-align: right;
       font-size: 1.6rem;
       width: 80%;
-      height: 9vh;
-      padding-top: 20px;
+      height: 15vh;
       border: solid 1px #ccc;
-      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 }
 
 .bottom-btn {
